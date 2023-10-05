@@ -1,0 +1,16 @@
+Photometric stereo methods seek to reconstruct 3D objects using multiple images captured 
+under varied illumination directions. Nevertheless, shadows are still among the most significant 
+problems faced by the photometric stereo and most of the existing formulations disregard 
+this problem although the elimination of shadow greatly improves the results. Usually, authors
+define empirically a threshold to eliminate pixels that have low brightness. Accordingly, 
+in this paper we present an improved approach to enhance the photometric stereo. Our aim consists
+ to propose an improved formulation for solving the shadow problem and determine the optimal 
+ solution. In order to define the threshold value used to solve the shadow problem, we propose
+ an improvement of an existing formulation. Our formulation normalizes the error rate with respect
+ to the threshold, which makes it possible to compare the error rates of a different threshold values.
+ A second contribution consists to find the optimal solution of the normal vectors by adapting the 
+ local search method “Tabu search meta-heuristic” to find the optimal solution in the neighborhood 
+ of the initial solution. We perform several tests on real objects of different complexity with different
+ parameters values. In order to show the effectiveness of our proposal, a number of comparisons with recent 
+ published methods are made. Through these experiments, we show that our proposed method outperforms modern 
+ near-field photometric stereo approaches in terms of quality and application that does not require manual intervention.

@@ -1,0 +1,14 @@
+Swarm intelligence algorithms are now among the most widely used soft computing techniques for optimization 
+and computational intelligence. One recent swarm intelligence algorithm that has begun to receive more attention 
+is Accelerated Particle Swarm Optimization (APSO). It is an enhanced version of PSO with global optimization capability, 
+sufficient simplicity and high flexibility. In this paper, we propose the application of the APSO technique to efficiently 
+solve the problem of Query Expansion (QE) in Web Information Retrieval (IR). Unlike prior studies, we introduce 
+a new modelling of QE that aims to find the suitable expanded query from among a set of expanded query candidates. 
+Nevertheless, due to the large number of potential expanded query candidates, it is extremely complex to produce the best 
+one through conventional hard computing methods. Therefore, we propose to consider the problem of QE as a combinatorial 
+optimization problem and address it with APSO. We thoroughly evaluate the proposed APSO for QE using MEDLINE, the world
+Web’s largest medical library. We first conduct a preliminary experiment to tune the APSO parameters. Then, we compare 
+the results to a recent swarm intelligence algorithm called Firefly Algorithm (FA). We also compare the results with 
+three recently published methods for QE that involved Particle Swarm Optimization (PSO), Genetic Algorithm (GA) and Bat 
+Algorithm (BA). The experimental analysis demonstrates that the proposed APSO for QE is very competitive and yields 
+substantial improvement over the other methods in terms of retrieval effectiveness and computational complexity.

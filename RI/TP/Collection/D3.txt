@@ -1,0 +1,14 @@
+Motivated by the vast applications of knowledge graph and the increasing 
+demand in education domain, we propose a system, called KnowEdu, to automatically 
+construct knowledge graph for education. By leveraging on heterogeneous data 
+(e.g., pedagogical data and learning assessment data) from the education domain, 
+this system first extracts the concepts of subjects or courses and then identifies 
+the educational relations between the concepts. More specifically, 
+it adopts the neural sequence labeling algorithm on pedagogical data to extract instructional 
+concepts and employs probabilistic association rule mining on learning assessment data to 
+identify the relations with educational significance. We detail all the above mentioned efforts 
+through an exemplary case of constructing a demonstrative knowledge graph for mathematics, 
+where the instructional concepts and their prerequisite relations are derived from curriculum 
+standards and concept-based performance data of students. Evaluation results show that the 
+F1 score for concept extraction exceeds 0.70, and for relation identification, 
+the area under the curve and mean average precision achieve 0.95 and 0.87, respectively.

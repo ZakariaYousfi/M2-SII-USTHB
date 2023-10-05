@@ -1,0 +1,15 @@
+In this paper, the quantum technology is exploited to empower the OPTICS unsupervised learning algorithm, 
+which is a density-based clustering algorithm with numerous applications in the real world. We design 
+an algorithm called Quantum Ordering Points To Identify the Clustering Structure (QOPTICS) and demonstrate 
+that its computational complexity outperforms that of its classical counterpart. On the other hand, we propose
+ a Deep self-learning approach for modeling the improvement of two Swarm Intelligence Algorithms, namely 
+ Artificial Orca Algorithm (AOA) and Elephant Herding Optimization (EHO) in order to improve their effectiveness. 
+ The deep self-learning approach is based on two well-known dynamic mutation operators, namely Cauchy mutation 
+ operator and Gaussian mutation operator. And in order to improve the efficiency of these algorithms, they are 
+ hybridized with QOPTICS and executed on just one cluster it yields. This way, both effectiveness and efficiency 
+ are handled. To evaluate the proposed approaches, an intelligent application is developed to manage the dispatching 
+ of emergency vehicles in a large geographic region and in the context of Covid-19 crisis in order to avoid 
+ an important loss in human lives. A theoretical model is designed to describe the issue mathematically. 
+ Extensive experiments are then performed to validate the mathematical model and evaluate the performance of the 
+ proposed deep self-learning algorithms. Comparison with a state-of-the-art technique shows a significant positive 
+ impact of hybridizing Quantum Machine Learning (QML) with Deep Self Learning (DSL) on solving the Covid-19 EMS transportation.

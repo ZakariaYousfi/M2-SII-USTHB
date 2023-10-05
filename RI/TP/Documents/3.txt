@@ -1,0 +1,11 @@
+The user-centred information retrieval needs to introduce semantics into the user modelling for 
+a meaningful representation of user interests. The semantic representation of the user interests 
+helps to improve the identification of the user’s future cognitive needs. In this paper, we present 
+a semantic-based approach for a personalised information retrieval. This approach is based on the 
+design and the exploitation of a user profile to represent the user and his interests. In this user
+ profile, we combine an ontological semantics issued from WordNet ontology, and a personal semantics 
+ issued from the different user interactions with the search system and with his social and situational 
+ of his previous searches. The personal semantics considers the co-occurrence relations between relevant
+ components of the user profile as semantic links. The user profile is used to improve two important 
+ phases of the information search process: (i) expansion of the initial user query and (ii) adaptation 
+ of the search results to the user interests.
