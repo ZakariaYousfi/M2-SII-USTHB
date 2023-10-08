@@ -13,10 +13,11 @@
                 font-family:"Courier New",Arial, Helvetica, sans-serif;
                 font-weight:600;
                 line-height: 1.4;
+                background: black;
+                color: white;
             }
             header{
                 text-align: center;
-                background: whitesmoke;
                 height:50px;
                 font-size:30px;
                 padding-top:10px;
@@ -24,22 +25,21 @@
             }
             .header{
                 text-decoration:none;
-                color:purple;
                 text-align: center;
                 font-weight: bold;
+                font-size: 30px;
             }
             .header:hover{
                 text-decoration:underline;
             }
             nav{
-                background:skyblue;
-                height:50px;
+                height:60px;
                 display:grid;
                 grid-template-columns: auto auto auto;
                 align-items: center;
+                margin: 10px 0;
             }
             footer{
-                background:whitesmoke;
                 padding-top:10px;
                 font-size:20px;
                 padding-bottom:20px;
@@ -48,11 +48,11 @@
                 grid-template-columns: auto auto;
             }
             .course{
-                border: 1px solid purple;
-                margin:5px;
-                padding:5px;
-                background:dimgrey;
+                border: 1px solid white;
+                margin: 0 25px;
+                padding:10px;
                 color:white;
+                margin-bottom: 10px;
             }
             #courses {
                 display:grid;
@@ -72,9 +72,10 @@
                 color:bisque;
             }
             .courseHead{
-                background:coral;
                 width:100%;
                 height:25px;
+                font-size: 25px;
+                padding-bottom:20px;
             }
             .courseContent {
                 display:grid;
@@ -99,7 +100,11 @@
             #link {
                 margin-left:0px;
                 padding:10px;
-                background:dimgray;
+                margin: 0 25px;
+                border: 1px solid white;
+                padding-bottom: 20px;
+                margin-top: 5px;
+                font-size: 20px;
             }
             #drive h3 {
                 color:bisque;
@@ -110,30 +115,31 @@
                 grid-template-columns: auto auto auto;
             }
             #emails {
-                background: salmon;
                 padding: 10px;
                 font-size: 20px;
+                margin: 0 25px;
+                border: 1px solid white;
+                margin-top: 15px;
+                max-width: 100%;
             }
             #inquiry {
+                display: inline;
                 text-align: right;
                 padding-right: 10px;
             }
-            @media screen and (max-width: 500px) {
+            @media screen and (max-width: 600px) {
                 #links{
-                    grid-template-columns: auto auto auto;
+                    grid-template-columns: auto auto;
                 }
             }
 
         </style>
     </head>
     <body>
-        <header>
-            M2 SII
-        </header>
         <nav>
             <a class="header" href="#courses">Courses</a>
             <a class="header" href="#links">Links</a>
-            <a class="header" href="#links">Emails</a>
+            <a class="header" href="#emails">Emails</a>
         </nav>
         <section name="deadlines" id="deadlines">
             <!-- should show a list of deadlines-->
@@ -142,7 +148,7 @@
             <div class="course">
                 <details>
                 <summary>
-                    <div class="courseHead"><h3 align="center">Programmation par contrainte</h3></div>
+                    <div class="courseHead"><h3 align="center">PPC</h3></div>
                 </summary>
                     <div class="courseContent">
                         <ul><span>Cours:</span>
@@ -223,7 +229,7 @@
             <div class="course">
                 <details>
                 <summary>
-               <div class="courseHead"><h3 align="center">Recherche Information</h3></div>
+               <div class="courseHead"><h3 align="center">RI</h3></div>
                 </summary>
                <div class="courseContent">
                 <ul><span>Cours:</span>
@@ -301,7 +307,7 @@
             <div class="course">
                 <details>
                 <summary>
-                <div class="courseHead"><h3 align="center">RCR 2</h3></div>
+                <div class="courseHead"><h3 align="center">RCR2</h3></div>
                 </summary>
                 <div class="courseContent">
                     <ul><span>Cours:</span>
@@ -401,7 +407,7 @@
             <h3>Emails:</h3>
             <p>
                 REP CONN KHELLAF, FAIZA : <a href="mailto:hanedfaiza@yahoo.com">hanedfaiza@yahoo.com</a><br>
-                AL KHENNAK, ILYES : <a href="mailto:hkhemissa@usthb.dz">heoui@live.com</a><br>
+                AL KHENNAK, ILYES : <a href="mailto:heoui@live.com">heoui@live.com</a><br>
                 RI KECHID, SAMIR : <a href="mailto:kechidsam@yahoo.fr">kechidsam@yahoo.fr</a><br>
                 VISION ABADA, LYES : <a href="mailto:labada@usthb.dz">labada@usthb.dz</a><br>
                 P .CONTR ISLI, AMAR : <a href="mailto:a_isli@yahoo.com">a_isli@yahoo.com</a><br>
@@ -409,6 +415,6 @@
                 ENGLISH : <a href="karima1936@hotmail.fr">karima1936@hotmail.fr</a><br>
             </p>
         </section>        
-        <footer><p>this offline website is for M2 SII students @USTHB</p> <p id="inquiry">Send me an email for any inquiry: <a href="mailto:zakonaser@gmail.com">zakonaser@gmail.com</a></p></footer>
+        <footer><p id="inquiry">Send me an email for any inquiry: <a href="mailto:zakonaser@gmail.com">zakonaser@gmail.com</a></p></footer>
     </body>
 </html>
